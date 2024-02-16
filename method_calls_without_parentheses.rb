@@ -15,4 +15,5 @@ def tag t, content
   "<#{t}>#{content}</#{t}>"
 end
 
-puts tag :h1, "this is a paragraph."
+puts tag :p, "this is a paragraph."
+puts tag :h1, "this is a headeder."

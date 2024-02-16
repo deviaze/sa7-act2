@@ -7,7 +7,6 @@
 numbers = [1, 2, 3, 4, 5]
 
 a = []
-numbers.each { |n| print "#{n}, " }.map { |n| a << n * 3 }
+numbers.each {|n| puts n * 2}.map { |n| a << n * 3 }
 
-puts "\n"
-puts a
+p a # Why is the "print with formatting" global just p???
