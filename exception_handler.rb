@@ -5,7 +5,7 @@ def safe_divide a, b
   begin
     a / b
   rescue
-    if b == 0 then "you done fucked up" end
+    if b == 0 then "you done mucked up" end
   end
 end
 
